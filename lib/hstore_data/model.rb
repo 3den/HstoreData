@@ -1,9 +1,11 @@
-module HstoreData::Model
-  def data=(value)
-    super HstoreSerializer.new(value).serialize
-  end
+module HstoreData
+  module Model
+    def data=(value)
+      super Serializer.new(value).serialize
+    end
 
-  def data
-    HstoreSerializer.new(super).deserialize
+    def data
+      Serializer.new(super).deserialize
+    end
   end
 end
