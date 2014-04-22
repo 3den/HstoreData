@@ -7,7 +7,7 @@ Allow nested hashes for ActiveRecord's Hstore
 
 Add this line to your application's Gemfile:
 
-    gem 'hstoredata'
+    gem 'hstore-data'
 
 And then execute:
 
@@ -15,7 +15,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install hstoredata
+    $ gem install hstore-data
 
 ## Usage
 
