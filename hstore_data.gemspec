@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'hstore_data/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "hstore-data"
+  spec.name          = "hstore_data"
   spec.version       = HstoreData::VERSION
   spec.authors       = ["Marcelo Eden"]
   spec.email         = ["edendroid@gmail.com"]
