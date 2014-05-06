@@ -1,5 +1,6 @@
 HstoreData
 ==========
+[![Code Climate](https://codeclimate.com/github/3den/HstoreData.png)](https://codeclimate.com/github/3den/HstoreData)
 
 Allow nested hashes for ActiveRecord's Hstore
 
